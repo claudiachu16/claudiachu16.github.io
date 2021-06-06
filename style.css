@@ -26,6 +26,9 @@ body {
         font-weight: light;
         font-size: 1.25 em;
 }
+.portfolio {
+    padding:60 px;
+}
 .port-desc {
     float: left;
     position: relative;
@@ -35,7 +38,7 @@ body {
     padding: 2vw;
     font-family: 'Lato';
     font-weight: light;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .rect {
     height: 50px;
