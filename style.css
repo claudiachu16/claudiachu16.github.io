@@ -27,7 +27,9 @@ body {
         font-size: 1.25 em;
 }
 .portfolio {
-    padding:60 px;
+    top: 220px;
+    position: relative;
+    padding:60px;
 }
 .port-desc {
     float: left;
