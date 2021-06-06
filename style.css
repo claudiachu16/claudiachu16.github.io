@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neau&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+    background-color: white;
+    font-family: 'Lato';
+    font-weight: light;
+    text-align: center;
+    color: #474747;
+}
 #name {
     float: left;
     position: relative;
@@ -22,9 +29,24 @@
     width: 400px;
     text-align: center;
 }
+.descrip {
+}
+.port-desc {
+    float: left;
+    position: relative;
+    display: block;
+    color: #474747;
+    text-align: center;
+    padding: 2vw;
+    font-family: 'Lato';
+    font-weight: light;
+    font-size: 1.5em;
+}
 footer {
     text-align: center;
     font-size: 0.7em;
     color: #919191;
+    font-family: 'Lato';
+    font-weight: light;
     padding: 20px;
 }
