@@ -42,6 +42,11 @@ body {
     font-weight: light;
     font-size: 1.5em;
 }
+.rect {
+    height: 50px;
+    width: 140px;
+    background-color: #EBD6B4;
+}
 footer {
     text-align: center;
     font-size: 0.7em;
