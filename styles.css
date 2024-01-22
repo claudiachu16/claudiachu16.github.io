@@ -1,0 +1,46 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #EFEFEF;
+}
+
+.container {
+    text-align: center;
+    padding: 440px; /* Add padding to the sides */
+    padding-top: 600px;
+}
+
+.container h1 {
+    font-weight: normal; /* Set font weight to normal (not bold) */
+    font-size: 24px;
+}
+
+button {
+    padding: 16px 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #030611; /* Add background color */
+    color: #EFEFEF; /* Set text color */
+    border: none; /* Remove default button border */
+    top: 50%; /* Adjust top position as needed */
+    left: 40%; /* Adjust right position as needed */
+}
+
+/* Add SVG background */
+.container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the SVG */
+    width: 71.5%; /* Adjust the width as needed */
+    height: 80%; /* Adjust the height as needed */
+    background: url('Background.svg') center/cover; /* Replace 'background.svg' with your SVG file */
+    opacity: 1;
+    z-index: -1;
+}
