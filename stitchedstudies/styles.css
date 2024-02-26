@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    height: 2000px; /* This is just for demonstration, adjust as needed */
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    margin: 50px auto;
+}
+
+.fade-in.fade-in-visible {
+    opacity: 1;
+}
